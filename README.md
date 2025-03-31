@@ -37,25 +37,29 @@
 | Device         | Model                  | IP Address         | Location        | Notes                       |
 |----------------|------------------------|--------------------|-----------------|-----------------------------|
 | Router         | Shaw Arris XB7         | 192.168.x.x        | Living Room     | Primary router with Wi-Fi 6 |
-| Switch         | Cisco SG350            | 192.168.x.x        | Office          | Managed switch              |
-| AP 1           | Shaw BlueCurve Pod     | 192.168.x.x        | Bedroom 1       | Wi-Fi 6 Pod                 |
-| Laptop         | ASUS                   | 192.168.x.x        | Living Room     | Main Devices                |
+| Switch         | Cisco SG350            | 192.168.x.x        | Living Room     | Managed switch              |
+| AP 1           | Shaw BlueCurve Pod     | 192.168.x.x        | Living Room     | Wi-Fi 6 Pod                 |
+| Laptop         | ASUS                   | 192.168.x.x        | Office          | Main Devices                |
 | Phone          |Apple                   | 192.168.x.x        | Front Door      | Main Devices                |
-| Desktop        | HP                     | 192.168.x.x        | Backyard        | Main Devices                |
+| Desktop        | HP                     | 192.168.x.x        | Living Room     | Main Devices                |
   
 
 ## 5. Configuration Management
 - **Backup Policy:**  
     - Backup configurations regularly for router, switches, and APs.
-    - Store encrypted copies in multiple locations (e.g., cloud, external drive).
+    - Store the copies in different locations (e.g., cloud, external drive).
 
 - **Change Management:**  
-    - Document any network changes (e.g., new devices, configuration updates).
-    - Maintain a version-controlled config history.
+    -  Network changes should be Documented (e.g., devices, updates).
+    -  Maintain a history related to version-controlled.
 
 
 ## 6.  Secure Storage of Login Credentials
 - **Method Used:**  
-    - **Password Manager:** Store all credentials securely using a password manager **1Password**.
-    - **Multi-Factor Authentication (MFA):** Enable MFA for router and cloud services.
+    - **Password Manager:** Store all credentials securely using a password manager.1Password
+ is used to secure all the credentials. 
+    - **Multi-Factor Authentication (MFA):**  Router,Switches and cloud services should be enabled with MFA.
+ 
+## 7. Summary
+- This document provides physical and logical reference of the home network.
 
